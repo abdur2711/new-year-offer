@@ -51,3 +51,35 @@
   width: 630px;
   text-align: center;
 }
+
+/* holiday deals styles */
+.holiday-deals {
+  max-width: 800px;
+  height: 800px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.holiday-deals h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.holiday-deals p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF0000;
+  margin-top: 48px;
+}
+
+.holiday-deals h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
