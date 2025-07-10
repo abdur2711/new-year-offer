@@ -119,5 +119,10 @@
   background-color: transparent;
   color: white;
   border: none;
-  padding: 48px 32px;;
+  margin: 48px 32px;
+  cursor: pointer;
+}
+
+.welcome-party button:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
