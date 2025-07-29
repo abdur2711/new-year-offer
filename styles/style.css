@@ -173,3 +173,64 @@ section {
   font-weight: 700;
   margin-top: 48px;
 }
+
+/* coming soon section */
+.coming-soon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: 400px;
+}
+
+.coming-soon-left .best-offer {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+}
+
+.coming-soon-left h3 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 48px;
+  color: black;
+  margin-top: 15px;
+}
+
+.coming-soon-left p {
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.60);
+  max-width: 390px;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.coming-soon-image img {
+  border: 15px solid #FF0000;
+  border-radius: 50%;
+  padding: 40px;
+  max-width: 300px;
+}
+
+.coming-soon-left .best-offer,
+.coming-soon-right h3 {
+  margin-top: 80px;
+}
+
+.coming-soon-right h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FF0000;
+}
+
+.coming-soon-right p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.60);
+  max-width: 270px;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
