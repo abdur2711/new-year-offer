@@ -172,6 +172,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-top: 48px;
+  cursor: pointer;
 }
 
 /* coming soon section */
@@ -179,8 +180,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-  margin-bottom: 400px;
 }
 
 .coming-soon-left .best-offer {
@@ -209,7 +208,7 @@ section {
 .coming-soon-image img {
   border: 15px solid #FF0000;
   border-radius: 50%;
-  padding: 40px;
+  padding: 35px;
   max-width: 300px;
 }
 
@@ -233,4 +232,51 @@ section {
   line-height: 32px;
   margin-top: 15px;
   margin-bottom: 40px;
+}
+
+/* Holiday Sale styles */
+.holiday-sale-info {
+  text-align: center;
+}
+
+.functional {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.holiday-sale-info h3 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #070211;
+  margin-top: 15px;
+}
+
+.holiday-sale-info h3 span {
+  color: #FF0000;
+}
+
+.holiday-sale-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.60);
+  max-width: 1000px;
+  line-height: 32px;
+  margin: 30px auto;
+}
+
+.red-rectangle {
+  margin-bottom: -600px;
+}
+
+.gift-box {
+  max-width: 670px;
+}
+
+.discount-50 {
+  margin-bottom: 250px;
+  margin-left: 280px;
 }
